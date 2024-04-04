@@ -57,6 +57,10 @@ const services = [
     title: "Content Creator",
     icon: creator,
   },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -116,8 +120,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "First Year",
+    company_name: "Click To Explore",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -127,10 +131,11 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    path: "/prova",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Second Year",
+    company_name: "Click To Explore",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -140,10 +145,11 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    path: "/prova",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Third Year",
+    company_name: "Click To Explore",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -153,10 +159,11 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    path: "/prova",
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Fourth Year",
+    company_name: "Click To Explore",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -166,6 +173,21 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    path: "/prova",
+  },
+  {
+    title: "Fifth Year",
+    company_name: "Click To Explore",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+    path: "/ciao",
   },
 ];
 
@@ -198,7 +220,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hackaton",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
