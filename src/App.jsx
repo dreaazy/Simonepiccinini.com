@@ -11,6 +11,12 @@ import {
   StarsCanvas,
 } from "./components";
 
+import {
+  Pcto
+
+
+} from "./pages";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -37,10 +43,10 @@ const App = () => {
           />
           {/* Route for the "/ciao" path */}
           <Route
-            path="/ciao"
+            path="/pcto"
             element={
               <>
-                <div>ciao</div>
+                <Pcto/>
               </>
             }
           />
