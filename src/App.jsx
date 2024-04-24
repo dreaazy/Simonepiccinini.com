@@ -11,11 +11,7 @@ import {
   StarsCanvas,
 } from "./components";
 
-import {
-  Pcto
-
-
-} from "./pages";
+import { Pcto, Program } from "./pages";
 
 const App = () => {
   return (
@@ -23,7 +19,6 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
         </div>
 
         <Routes>
@@ -33,6 +28,7 @@ const App = () => {
             path="/"
             element={
               <>
+                <Hero />
                 <About />
                 <Experience />
                 <Tech />
@@ -46,7 +42,16 @@ const App = () => {
             path="/pcto"
             element={
               <>
-                <Pcto/>
+                <Pcto />
+              </>
+            }
+          />
+
+          <Route
+            path="/program"
+            element={
+              <>
+                <Program />
               </>
             }
           />

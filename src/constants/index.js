@@ -284,4 +284,66 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const SubjectTopics = [
+  {
+    name: "Italiano",
+    topics: [
+      {
+        topic: "Imperialismo e colonialismo",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIh9iTSfDwYkf7_C8oW6hBcqBCbnGaJqcKcsenJgGGFQ&s",
+        descrizione:
+          "L'imperialismo e il colonialismo rappresentano l'espansione politica ed economica delle potenze europee oltre i loro confini, sfruttando territori e popolazioni indigene.",
+      },
+      {
+        topic: "Prima guerra mondiale",
+        image: "https://cdn.skuola.net/news_foto/image-grabber/image-5bfb139eb1b4d.jpg",
+        descrizione:
+          "La Prima guerra mondiale è stato un conflitto globale che coinvolse le principali potenze del mondo tra il 1914 e il 1918, con devastanti conseguenze politiche, sociali ed economiche.",
+      },
+      {
+        topic: "Rivoluzione russa",
+        image: "https://static.sevendaysweb.com/2077/2017/07/31/109219/russia1.scale-to-max-width.825x.png",
+        descrizione:
+          "La Rivoluzione russa del 1917 portò alla caduta dello zarismo e all'ascesa del comunismo, determinando profonde trasformazioni sociali ed economiche in Russia e nel mondo.",
+      },
+      {
+        topic: "Trattato di Versailles",
+        image: "https://ilbolive.unipd.it/sites/default/files/2019-06/treaty_of_versailles_signing_hall_of_mirrors.jpg",
+        descrizione:
+          "Il Trattato di Versailles, firmato nel 1919, pose fine alla Prima guerra mondiale e impose pesanti condizioni alla Germania, contribuendo alle tensioni che portarono alla Seconda guerra mondiale.",
+      },
+      {
+        topic: "Rivoluzione industriale",
+        image: "https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/12/Panorama-di-Birmingham.jpg?im=AspectCrop=(16,9);",
+        descrizione:
+          "La Rivoluzione industriale segnò il passaggio dalla produzione artigianale alla produzione industriale in larga scala, trasformando radicalmente la società, l'economia e la vita quotidiana.",
+      },
+      {
+        topic: "Seconda guerra mondiale",
+        image: "https://cdn.studenti.stbm.it/images/2016/09/02/seconda-guerra-mondiale_600x400.jpeg",
+        descrizione:
+          "La Seconda guerra mondiale, combattuta tra il 1939 e il 1945, fu uno dei conflitti più devastanti della storia, coinvolgendo le principali potenze mondiali e causando milioni di morti.",
+      }, 
+      {
+        topic: "Guerra fredda",
+        image: "https://www.focusjunior.it/content/uploads/2022/03/guerra-fredda-900x506.jpg",
+        descrizione:
+          "La Guerra fredda fu il periodo di tensione politica e militare tra gli Stati Uniti e l'Unione Sovietica dopo la Seconda guerra mondiale, caratterizzato da una rivalità globale e una corsa agli armamenti.",
+      },
+      {
+        topic: "Movimenti per i diritti civili",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Marchers_with_signs_at_the_March_on_Washington%2C_1963.jpg",
+        descrizione:
+          "I movimenti per i diritti civili sono stati una serie di movimenti sociali che hanno lottato per i diritti delle minoranze e per porre fine alla discriminazione razziale, sessuale e sociale.",
+      },
+      {
+        topic: "Globalizzazione",
+        image: "https://cdn.studenti.stbm.it/images/2022/01/25/ricerca-sulla-globalizzazione-orig.jpeg",
+        descrizione:
+          "La globalizzazione è un processo di interconnessione economica, politica e culturale a livello mondiale, che ha portato a un'integrazione sempre maggiore delle economie e delle società.",
+      },
+    ],
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects , SubjectTopics};

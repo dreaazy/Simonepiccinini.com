@@ -10,9 +10,9 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader"; */
 
 import Pcto from "./Pcto";
-
-
+import Program from "./Program";
 
 export {
-  Pcto
+  Pcto,
+  Program,
 };
