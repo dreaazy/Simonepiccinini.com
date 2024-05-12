@@ -3,46 +3,57 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { SubjectTopics } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const TopicCard = ({ index, topic, descrizione, image }) => {
-  return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-      >
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
-        </div>
+/* json with subjects */
+import { storia, italiano } from "../constants";
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{topic}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{descrizione}</p>
-        </div>
-      </Tilt>
-    </motion.div>
+console.log(italiano);
+
+const TopicCard = ({ index, argomento }) => {
+  return (
+    <>
+      <motion.div
+        key={`argomento-${index}`}
+        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      >
+        <Tilt
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        >
+          <div className="relative w-full h-[230px]">
+            <img
+              src={argomento.img}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">
+              {argomento.titolo}
+            </h3>
+          </div>
+        </Tilt>
+      </motion.div>
+    </>
   );
 };
 
 const Program = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+
+      <motion.div id="italiano" variants={textVariant()}>
+        <p className={`${styles.sectionSubText} `}>Materie Letterarie</p>
+        <h2 className={`${styles.sectionHeadText}`}>Italiano.</h2>
       </motion.div>
+     
 
       <div className="w-full flex">
         <motion.p
@@ -58,10 +69,22 @@ const Program = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {SubjectTopics[0].topics.map((topic, index) => (
-          <TopicCard key={`topic-${index}`} index={index} {...topic} />
+        {italiano.argomenti.map((argomento, index) => (
+          <TopicCard index={index} argomento={argomento}></TopicCard>
         ))}
       </div>
+
+      <motion.div  id="storia" variants={textVariant()} className="mt-20">
+        <p className={`${styles.sectionSubText} `}>Materie Letterarie</p>
+        <h2 className={`${styles.sectionHeadText}`}>Storia.</h2>
+      </motion.div>
+
+      <div className="mt-20 flex flex-wrap gap-7">
+        {storia.argomenti.map((argomento, index) => (
+          <TopicCard index={index} argomento={argomento}></TopicCard>
+        ))}
+      </div>
+
     </>
   );
 };
