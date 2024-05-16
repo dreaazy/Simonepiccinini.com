@@ -45,7 +45,7 @@ export const navLinks = [
   {
     id: "storia",
     title: "Storia",
-  }
+  },
 ];
 
 const services = [
@@ -291,8 +291,6 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-
-
 
 const storia = {
   nome: "Storia",
@@ -1127,6 +1125,143 @@ const italiano = {
   ],
 };
 
+const educazioneCivica = {
+  nome: "IO NON PARTECIPO ALLA GUERRA, E’LA GUERRA CHE PARTECIPA A ME",
+  materia: "Educazione Civica",
+  argomenti: [
+    {
+      capitolo: 1,
+      titolo: "Manipolazione dell'Informazione e Propaganda",
+      paragrafi: [
+        {
+          id: 1,
+          testo:
+          "la propaganda è un mezzo volto a conquistare il favore e l'adesione di un pubblico sempre più vasto mediante ogni mezzo idoneo a influire sulla psicologia collettiva e sul comportamento delle masse. Questo strumento viene ampiamente utilizzato specialmente in politica e può avere un ruolo manipolatorio sull’opinione pubblica causando estremismi e polarizzazione della società."
+        },
+        {
+          id: 2,
+          testo: "Questo dà vita a quello che George Orwell, nel suo celebre romanzo 'La fattoria degli animali', descrive come un sistema in cui la propaganda e la manipolazione dell'informazione sono utilizzate per mantenere il controllo e giustificare le azioni dei leader."
+        },
+        {
+          id: 3,
+          testo:
+          "L’esempio più eclatante ai giorni d’oggi di una comunicazione che giustifica l'intervento militare è rappresentato da quello che sta succedendo in Ucraina e in Palestina."
+        },
+        {
+          id: 4,
+          testo:
+          "Questo tipo di manipolazione crea un clima di paura e odio, rendendo la guerra non solo accettabile ma necessaria agli occhi del pubblico. Dobbiamo essere consapevoli di queste dinamiche e resistere alla tentazione di accettare passivamente le informazioni che ci vengono fornite."
+        },
+      ],
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kitchener-leete.jpg/220px-Kitchener-leete.jpg",
+    },
+    {
+      capitolo: 2,
+      titolo: "L'Era della Globalizzazione dell'Informazione",
+      paragrafi: [
+        {
+          id: 1,
+          testo: "Oggi una guerra non è combattuta solamente con le armi, viviamo in un'era in cui internet, i social media e i media online hanno rivoluzionato il mondo. Tutti siamo sui social media, questo enorme afflusso di persone rende i social media ed internet il posto migliore per politici o chiunque altro per manipolare, disinformare ed pubblicizzare le loro strategie propagandistiche, giuste o sbagliate che siano. La capacità di influenzare l'opinione pubblica attraverso la comunicazione è diventata un'arma strategica."
+        },
+        {
+          id: 2,
+          testo:  "Le fake news e la disinformazione possono propagarsi rapidamente, creando confusione e fomentando divisioni. È essenziale che impariamo a navigare nel vasto oceano di informazioni digitali con spirito critico. Dobbiamo promuovere l'alfabetizzazione mediatica e incoraggiare i nostri cittadini a verificare le fonti e a riflettere sulle notizie che leggono."
+        }       
+      ],
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkxziD_nKcUf22z7wza6eNU_LZ-N1YUq9wuxemq6vd3Q&s",
+    },
+    {
+      capitolo: 3,
+      titolo: " L'Impatto della Tecnologia",
+      paragrafi: [
+        {
+          id: 1,
+          testo: "Il progresso di nuove tecnologie ci rende responsabili di come le utilizziamo, la tecnologia ha cambiato il modo in cui percepiamo e facciamo la guerra. La tecnologia rappresenta il progresso, ed il progresso non va fermato, ma dovrebbe essere regolamentato in modo da ridurre al minimo l’utilizzo improprio di queste tecnologie, che possono essere straordinariamente utili per la nostra vita quanto pericolose se utilizzate impropriamente."
+        },
+        {
+          id: 2,
+          testo: "Un esempio di un arma a doppio taglio sono le criptovalute, delle monete completamente decentralizzate grazie all’utilizzo della blockchain. Il vantaggio di questa tecnologia è proprio questa decentralizzazione rispetto ad enti privati e governativi come delle banche o dei governi, il lato negativo di questa tecnologia è la difficile identificazione di chi ha fatto una transazione."
+
+        },
+        {
+          id: 3,
+          testo: "Questo perché l'identità di chi fa una transazione non viene esplicitata o regolamentata da un ente centrale come una banca, anche se tutte le transazioni sono visibili a tutti, non è possibile risalire esattamente a chi ha fatto una transazione."
+          
+        },  
+        {
+          id: 4,
+          testo: "Questo rende le criptovalute un ottimo strumento per attività criminali organizzate e per finanziare operazioni militari illegali. Come ogni tecnologia che porta una rivoluzione positiva presenta dei limiti e dei pericoli se utilizzata impropriamente, è nostro dovere formare le generazioni a venire sul corretto utilizzo di queste tecnologie, la stessa cosa riguardo l’intelligenza artificiale, diffondendo consapevolezza e responsabilità."
+          
+        }        
+      ],
+      img: "https://www.telefonica.com/en/wp-content/uploads/sites/5/2022/06/Imagen1.jpg?w=1224&h=673&crop=1",
+    },
+    {
+      capitolo: 4,
+      titolo: " Il Consenso e la Giustizia",
+      paragrafi: [
+        {
+          id: 1,
+          testo: "Il consenso è un principio fondamentale in una società democratica. Nessuna decisione di tale gravità, come quella di entrare in guerra, dovrebbe essere presa senza un ampio consenso da parte del popolo. È nostro dovere opporci alla guerra e lottare per far sì che quei diritti inviolabili che abbiamo ottenuto con fatica restino tali."
+        },
+        {
+          id: 2,
+          testo: "È necessario e fondamentale utilizzare il nostro diritto di voto per fare in modo che sbagli che sono avvenuti nel passato non si ripetano mai più. Solo attraverso una partecipazione attiva e informata possiamo sperare di prevenire ulteriori conflitti e garantire che le decisioni prese riflettano veramente la volontà del popolo."
+
+        },
+        {
+          id: 3,
+          testo: "Inoltre, il sistema giudiziario deve garantire che le leggi internazionali siano rispettate e che i crimini di guerra non rimangano impuniti. Il processo penale deve essere uno strumento di giustizia e non di vendetta. Questo non solo per rendere giustizia alle vittime, ma anche per stabilire un precedente che dissuada futuri atti di barbarie e mantenga l'ordine internazionale"
+          
+        },  
+        {
+          id: 4,
+          testo: "L'importanza dello strumento della giustizia non può essere sottovalutata. La giustizia è il pilastro su cui si basa la fiducia dei cittadini nelle istituzioni. Quando le leggi vengono applicate in modo equo e trasparente, si crea un senso di sicurezza e ordine che è essenziale per il funzionamento armonioso di qualsiasi società. In contesti di guerra, la giustizia assume un ruolo ancora più cruciale. Garantire che coloro che commettono atrocità siano chiamati a rispondere delle loro azioni non solo fornisce un senso di risarcimento alle vittime, ma serve anche come deterrente per futuri crimini. Una giustizia forte e imparziale è la base su cui costruire una pace duratura e prevenire il ripetersi degli orrori del passato."
+          
+        }        
+      ],
+      img: "https://i2.res.24o.it/images2010/Editrice/ILSOLE24ORE/ILSOLE24ORE/2023/02/12/Commenti%20e%20inchieste/ImmaginiWeb/Ritagli/AdobeStock_565100773-kGCH--1020x533@IlSole24Ore-Web.jpeg?r=1080x566",
+    },
+    {
+      capitolo: 5,
+      titolo: "Razzismo e Guerra",
+      paragrafi: [
+        {
+          id: 1,
+          testo: "La guerra può causare e alimentare razzismo e xenofobia, soprattutto all’interno dei territori in guerra ma all’estero. Purtroppo abbiamo molti esempi di questo, persone che scappano dal proprio paese come Russi ed Ucraini che molto spesso non vengono accolti nella società come meriterebbero. Ma vengono discriminati e visti agli occhi della popolazione più ignorante come portatori dell’ideologia del proprio paese. Quello che dovremmo ricordarci è che non dobbiamo associare ideologie politiche di stati totalitari come la Russia di Putin a tutti i russi. È nostro dovere combattere questi pregiudizi e promuovere una cultura di inclusione e rispetto per tutte le persone."
+        }   
+      ],
+      img: "https://images.ctfassets.net/qpn1gztbusu2/73F6n7qzizBCqbwbAPHTsP/470126d4b7f3fdf888b215816ea3d484/livre-audio-racisme.jpg?fm=jpg&w=3840&q=70",
+    },
+    {
+      capitolo: 6,
+      titolo: "Global Warming",
+      paragrafi: [
+        {
+          id: 1,
+          testo: "Infine, non possiamo ignorare l'impatto devastante che la guerra ha sull'ambiente. Le guerre moderne contribuiscono significativamente al riscaldamento globale attraverso l'inquinamento, la distruzione degli ecosistemi e l'uso intensivo di risorse. In un momento in cui il nostro pianeta è già gravemente minacciato dai cambiamenti climatici, dobbiamo cercare soluzioni pacifiche e sostenibili per risolvere i conflitti."
+        }   
+      ],
+      img: "https://s45727.pcdn.co/wp-content/uploads/2020/10/Climate-change-2-scaled-2.jpg.optimal.jpg",
+    },
+    {
+      capitolo: 7,
+      titolo: "Conclusione",
+      paragrafi: [
+        {
+          id: 1,
+          testo: "In conclusione la guerra non è mai stata una soluzione ai nostri problemi, come la storia ci ha insegnato in passato, il vero problema è la guerra. Io credo fermamente che la partecipazione a questo conflitto non sia giusta né necessaria. Dobbiamo trovare vie alternative per risolvere i nostri disaccordi e costruire un futuro migliore per tutti."
+        }
+        {
+          id: 2,
+          testo: "Grazie."
+        }     
+      ],
+      img: "",
+    },
+  ],
+};
+
 export {
   services,
   technologies,
@@ -1135,4 +1270,5 @@ export {
   projects,
   italiano,
   storia,
+  educazioneCivica
 };
