@@ -1130,6 +1130,21 @@ const educazioneCivica = {
   materia: "Educazione Civica",
   argomenti: [
     {
+      capitolo: 0,
+      titolo: "Manipolazione dell'Informazione e Propaganda",
+      paragrafi: [
+        {
+          id: 1,
+          testo:"Cari colleghi e amici, "
+        },
+        {
+          id: 2,
+          testo: "Mi trovo qui oggi per discutere una questione di estrema importanza: la possibile partecipazione del nostro paese a un conflitto armato. Voglio iniziare con una citazione di Jurij Levitanskij: 'Io non partecipo alla guerra, è la guerra che partecipa a me.' Questa affermazione racchiude una verità profonda: la guerra non è un evento isolato che coinvolge solo i soldati al fronte, ma una realtà che permea ogni aspetto della nostra vita e della nostra società."
+        },        
+      ],
+      img: "",
+    },
+    {
       capitolo: 1,
       titolo: "Manipolazione dell'Informazione e Propaganda",
       paragrafi: [
