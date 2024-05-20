@@ -62,7 +62,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Content Creator2",
     icon: creator,
   },
   {
@@ -1266,7 +1266,7 @@ const educazioneCivica = {
         {
           id: 1,
           testo: "In conclusione la guerra non è mai stata una soluzione ai nostri problemi, come la storia ci ha insegnato in passato, il vero problema è la guerra. Io credo fermamente che la partecipazione a questo conflitto non sia giusta né necessaria. Dobbiamo trovare vie alternative per risolvere i nostri disaccordi e costruire un futuro migliore per tutti."
-        }
+        },
         {
           id: 2,
           testo: "Grazie."
